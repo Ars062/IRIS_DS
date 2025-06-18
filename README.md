@@ -1,33 +1,39 @@
-# IPL Match Data Analysis
+🌸 Iris Flower Classification Project
+This is a classic data science and machine learning project based on the Iris Flower Dataset. It focuses on data analysis, visualization, and classification of iris flowers based on their sepal and petal measurements.
 
-This project involves a detailed analysis of Indian Premier League (IPL) match data. The aim is to explore, clean, and derive meaningful insights from the raw data using Python and its data science libraries.
+📁 Repository Contents
+Iris.csv — The raw dataset containing labeled features (sepal length, sepal width, petal length, petal width) for different iris species.
 
-## 📁 Project Structure
+Iris_flower.ipynb — A Jupyter Notebook that includes data exploration, visualization, and a classification model built using machine learning algorithms.
 
-- `matches.csv`: This is the **raw dataset** containing IPL match-level data. It includes match dates, teams, venues, outcomes, and more.
-- `IPL.ipynb`: This is the **TNV (Python Copy) Jupyter Notebook** that includes all the data preprocessing, analysis, and visualization. The notebook walks through each step of the data pipeline including loading, cleaning, exploration, and summary insights.
+📊 Project Objectives
+Explore and visualize the features of the Iris dataset.
 
-## 🔍 Objectives
+Build a machine learning model to classify iris flowers into one of three species: Setosa, Versicolor, or Virginica.
 
-- Understand key trends and patterns in IPL match outcomes.
-- Identify winning patterns of teams and performance trends over the years.
-- Perform basic statistical analysis and visual exploration.
-- Build a clean and reproducible data analysis pipeline in Python.
+Evaluate the model using accuracy metrics and visual tools like confusion matrix.
 
-## 🧰 Technologies Used
+🔍 Key Features
+📉 EDA: Exploratory data analysis including pair plots and histograms.
 
-- **Python 3**
-- **Pandas** – Data manipulation
-- **Matplotlib & Seaborn** – Data visualization
-- **Jupyter Notebook** – Interactive analysis
+🧠 ML Modeling: Logistic Regression, K-Nearest Neighbors (KNN), and Decision Tree classifiers.
 
-## 📈 Key Highlights
+🎯 Model Evaluation: Accuracy score, confusion matrix, and classification report.
 
-- Visual breakdown of team performance.
-- Analysis of toss decisions vs match outcomes.
-- Venue-wise performance and winning statistics.
-- Seasonal comparison of matches and team statistics.
+🛠️ Data Preprocessing: Handling categorical labels and scaling features.
 
+📦 Tools & Libraries Used
+Python (Pandas, NumPy)
 
-You can [view the full project here](https://github.com/ars062/ipl-analysis) 
+Seaborn, Matplotlib
 
+Scikit-learn
+
+Jupyter Notebook
+
+💡 Insights
+The features of iris flowers are highly separable, especially between Setosa and the other species.
+
+Simple machine learning models can achieve >95% accuracy on this dataset.
+
+KNN and Decision Tree classifiers performed especially well in classifying the species.
